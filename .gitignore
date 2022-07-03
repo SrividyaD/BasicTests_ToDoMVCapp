@@ -10,5 +10,6 @@
 /target
 /xmlresults.xml
 /ToDoAutomate/target/screenshots
+/ToDoAutomate/target
 /ToDoAutomate/screenshots
 /ToDoAutomate/allure-results
