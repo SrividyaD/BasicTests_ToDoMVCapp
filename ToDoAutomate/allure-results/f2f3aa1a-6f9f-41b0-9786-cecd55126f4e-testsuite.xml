@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656876029431' stop='1656876036632'>
+    <name>positive tests for ToDo app</name>
+    <title>positive tests for ToDo app</title>
+    <test-cases>
+        <test-case start='1656876029431' status='passed' stop='1656876035752'>
+            <name>should open todos application</name>
+            <title>should open todos application</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656876035752' status='passed' stop='1656876035964'>
+            <name>add 1 item to list</name>
+            <title>add 1 item to list</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656876035964' status='passed' stop='1656876036236'>
+            <name>add multiple items to list</name>
+            <title>add multiple items to list</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656876036236' status='passed' stop='1656876036445'>
+            <name>mark 2 items complete</name>
+            <title>mark 2 items complete</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656876036445' status='passed' stop='1656876036631'>
+            <name>delete 1 item</name>
+            <title>delete 1 item</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

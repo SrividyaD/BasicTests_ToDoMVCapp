@@ -1,0 +1,170 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656880525150' stop='1656880543905'>
+    <name>Basic tests for ToDo app</name>
+    <title>Basic tests for ToDo app</title>
+    <test-cases>
+        <test-case start='1656880525150' status='passed' stop='1656880541493'>
+            <name>should open todos application</name>
+            <title>should open todos application</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656880541494' status='failed' stop='1656880541747'>
+            <name>add 1 item to list</name>
+            <title>add 1 item to list</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expected 'Rieent Analysis' to equal 'Requirement Analysis'.</message>
+                <stack-trace>Error: Failed expectation
+                    at HomePage.verifyItemAdded (/Users/srividya/VSProjects/ToDoAutomate/Pages/HomePage.js:67:36)
+                    at UserContext.&lt;anonymous> (/Users/srividya/VSProjects/ToDoAutomate/Tests/BasicTests.js:28:16)
+                    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+                    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)
+                    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)
+                    at schedulerExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:95:18)
+                    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+                    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+                    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1656880541747' status='failed' stop='1656880542137'>
+            <name>add multiple items to list</name>
+            <title>add multiple items to list</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expected $[0] = 'Rieent Analysis' to equal 'Requirement Analysis'.</message>
+                <stack-trace>Error: Failed expectation
+                    at HomePage.verifyItemsAdded (/Users/srividya/VSProjects/ToDoAutomate/Pages/HomePage.js:76:37)
+                    at UserContext.&lt;anonymous> (/Users/srividya/VSProjects/ToDoAutomate/Tests/BasicTests.js:41:18)
+                    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+                    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)
+                    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)
+                    at schedulerExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:95:18)
+                    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+                    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+                    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1656880542137' status='passed' stop='1656880542453'>
+            <name>mark 2 items complete</name>
+            <title>mark 2 items complete</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656880542453' status='passed' stop='1656880542655'>
+            <name>delete 1 item</name>
+            <title>delete 1 item</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656880542656' status='passed' stop='1656880542850'>
+            <name>edit 1 item</name>
+            <title>edit 1 item</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656880542850' status='failed' stop='1656880543076'>
+            <name>add duplicate items</name>
+            <title>add duplicate items</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expected $[0] = 'Rieent Analysis' to equal 'Requirement Analysis'.</message>
+                <stack-trace>Error: Failed expectation
+                    at HomePage.verifyItemsAdded (/Users/srividya/VSProjects/ToDoAutomate/Pages/HomePage.js:76:37)
+                    at UserContext.&lt;anonymous> (/Users/srividya/VSProjects/ToDoAutomate/Tests/BasicTests.js:79:16)
+                    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+                    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)
+                    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)
+                    at schedulerExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:95:18)
+                    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+                    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+                    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1656880543076' status='passed' stop='1656880543359'>
+            <name>edit completed item</name>
+            <title>edit completed item</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656880543359' status='passed' stop='1656880543518'>
+            <name>add blank spaces</name>
+            <title>add blank spaces</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656880543518' status='failed' stop='1656880543649'>
+            <name>edit item to blank</name>
+            <title>edit item to blank</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: browser.actions(...).doubleClick(...).clear is not a function</message>
+                <stack-trace>TypeError: browser.actions(...).doubleClick(...).clear is not a function
+                    at HomePage.editnClearItem (/Users/srividya/VSProjects/ToDoAutomate/Pages/HomePage.js:30:54)
+                    at UserContext.&lt;anonymous> (/Users/srividya/VSProjects/ToDoAutomate/Tests/BasicTests.js:102:18)
+                    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+                    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)
+                    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)
+                    at schedulerExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:95:18)
+                    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+                    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+                    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27
+                    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7
+                From: Task: Run it("edit item to blank") in control flow
+                    at UserContext.&lt;anonymous> (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at QueueRunner.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)
+                    at Spec.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)
+                    at UserContext.fn (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)
+                    at attempt (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at runNext (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (/Users/srividya/VSProjects/ToDoAutomate/Tests/BasicTests.js:101:5)
+                    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/Users/srividya/VSProjects/ToDoAutomate/Tests/BasicTests.js:3:1)
+                    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+                    at Module.load (node:internal/modules/cjs/loader:981:32)
+                    at Function.Module._load (node:internal/modules/cjs/loader:822:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1656880543649' status='passed' stop='1656880543905'>
+            <name>clear completed items</name>
+            <title>clear completed items</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

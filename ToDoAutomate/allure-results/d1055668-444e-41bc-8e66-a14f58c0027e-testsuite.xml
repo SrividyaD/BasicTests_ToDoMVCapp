@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656882338222' stop='1656882362529'>
+    <name>Basic tests for ToDo app</name>
+    <title>Basic tests for ToDo app</title>
+    <test-cases>
+        <test-case start='1656882338223' status='passed' stop='1656882360560'>
+            <name>should open todos application</name>
+            <title>should open todos application</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656882360561' status='passed' stop='1656882360784'>
+            <name>add 1 item to list</name>
+            <title>add 1 item to list</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656882360784' status='passed' stop='1656882361038'>
+            <name>add multiple items to list</name>
+            <title>add multiple items to list</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656882361038' status='passed' stop='1656882361232'>
+            <name>mark 2 items complete</name>
+            <title>mark 2 items complete</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656882361233' status='passed' stop='1656882361420'>
+            <name>delete 1 item</name>
+            <title>delete 1 item</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656882361420' status='passed' stop='1656882361612'>
+            <name>edit 1 item</name>
+            <title>edit 1 item</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656882361612' status='passed' stop='1656882361839'>
+            <name>add duplicate items</name>
+            <title>add duplicate items</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656882361839' status='passed' stop='1656882362001'>
+            <name>edit completed item</name>
+            <title>edit completed item</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656882362001' status='passed' stop='1656882362167'>
+            <name>add blank spaces</name>
+            <title>add blank spaces</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656882362167' status='passed' stop='1656882362355'>
+            <name>add other langugage script</name>
+            <title>add other langugage script</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656882362355' status='passed' stop='1656882362528'>
+            <name>clear completed items</name>
+            <title>clear completed items</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

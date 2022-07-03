@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656882309029' stop='1656882309031'>
+    <name>Basic tests for ToDo app</name>
+    <title>Basic tests for ToDo app</title>
+    <test-cases>
+        <test-case start='1656882309029' status='failed' stop='1656882309030'>
+            <name>encountered a declaration exception</name>
+            <title>encountered a declaration exception</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>ReferenceError: let is not defined</message>
+                <stack-trace>ReferenceError: let is not defined
+                    at Suite.&lt;anonymous> (/Users/srividya/VSProjects/ToDoAutomate/Tests/BasicTests.js:5:3)
+                    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/Users/srividya/VSProjects/ToDoAutomate/Tests/BasicTests.js:3:1)
+                    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+                    at Module.load (node:internal/modules/cjs/loader:981:32)
+                    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+                    at Module.require (node:internal/modules/cjs/loader:1005:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

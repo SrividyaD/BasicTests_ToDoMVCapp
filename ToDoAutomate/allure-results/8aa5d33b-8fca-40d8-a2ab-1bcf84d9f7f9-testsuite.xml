@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656874384763' stop='1656874386376'>
+    <name>positive tests for ToDo app</name>
+    <title>positive tests for ToDo app</title>
+    <test-cases>
+        <test-case start='1656874384764' status='passed' stop='1656874386115'>
+            <name>should open todos application</name>
+            <title>should open todos application</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656874386115' status='failed' stop='1656874386376'>
+            <name>add 1 item to list</name>
+            <title>add 1 item to list</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expected [ 'Test Design' ] to equal 'Test Design'.</message>
+                <stack-trace>Error: Failed expectation
+                    at HomePage.verifyItemsAdded (/Users/srividya/VSProjects/ToDoAutomate/Pages/HomePage.js:58:37)
+                    at UserContext.&lt;anonymous> (/Users/srividya/VSProjects/ToDoAutomate/Tests/PositiveTests.js:17:19)
+                    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+                    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1077:7)
+                    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2505:12)
+                    at schedulerExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:95:18)
+                    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+                    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+                    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
